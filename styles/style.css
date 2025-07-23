@@ -46,3 +46,21 @@ header, main{
     font-size: medium;
     color: #000000;
 }
+
+
+
+
+/* responsive style*/
+@media screen and (max-width: 576px){
+    header, main {
+        margin: 36px 16px 100px;
+    }
+    .nav-link > .home, .shop{
+        display: none;
+    }
+    .navbar img{
+        width: 63px;
+        height: 38px;
+    }
+    
+}
