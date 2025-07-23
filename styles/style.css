@@ -1,0 +1,48 @@
+.title-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.p-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* header style */
+header, main{
+    max-width: 1140px;
+    margin: 30px 150px 120px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link a{
+    margin-left: 48px;
+    text-decoration: none;
+    color: black;
+}
+.nav-link i{
+    margin-right: 10px;
+}
+.nav-link .home{
+    font-size: medium;
+    font-weight: bold;
+    color: #252432;
+}
+.nav-link .shop{
+    font-size: medium;
+    color: #8987A1;
+}
+.nav-link .cart{
+    font-size: medium;
+    color: #000000;
+}
