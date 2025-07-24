@@ -94,7 +94,7 @@ header, main {
   grid-template-columns: repeat(4, 1fr);
   column-gap: 20px;
   row-gap: 30px;
-  margin-bottom: 120px;
+  margin-bottom: 210px;
 }
 .card{
   text-align: center;
@@ -126,7 +126,30 @@ header, main {
   width: 100%;
 }
 
-
+/* flower lover style */
+.container {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.about-flower-lover > ul > li{
+  margin-bottom: 20px;
+}
+.flower-lover-image{
+  max-width: 540px;
+}
+.about-flower-lover{
+  max-width: 540px;
+}
+.badge{
+  width: 286px;
+  height: 286px;
+  margin-left: 345px;
+  margin-top: -130px;
+  position: absolute;
+  filter: drop-shadow(10px 10px 20px gray)
+}
 
 
 /* responsive style */
@@ -140,11 +163,14 @@ header, main {
         display: none;
     }
     .nav-link .cart{
-      font-size: 24px;
+      font-size: 20px;
     }
     .banner{
       flex-direction: column-reverse;
       justify-content: center;
+    }
+    .title{
+      font-size: 2rem;
     }
     .about-banner{
       width: 100%
@@ -153,10 +179,14 @@ header, main {
       width: 100%;
     }
     .navbar{
+      margin-top: 20px;
       margin-bottom: 50px;
     }
+    .h3-title{
+      font-size: 2rem;
+    }
     .description{
-      font-size: 20px;
+      font-size: 1.2rem;
     }
 
     /* our plants responsive */
@@ -168,5 +198,36 @@ header, main {
     }
     .banner{
       margin-bottom: 0px;
+    }
+    .btn-primary{
+      background-color: #E95A08;
+      color: #FFFFFF;
+      font-weight: 500;
+      font-size: 1rem;
+      padding: 19px 30px;
+      width: 100%;
+      border-style: none;
+}
+
+    /* flower lover */
+    .container{
+      flex-direction: column;
+      gap: 0px;
+      max-width: 100%;
+    }
+    .about-flower-lover h3{
+      margin-top: 20px;
+    }
+    .about-flower-lover br{
+      display: none;
+    }
+    .badge{
+      display: none;
+    }
+    .card-container{
+      margin-bottom: 65px;
+    }
+    .flower-lover-image{
+      max-width: 100%;
     }
 }
