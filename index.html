@@ -43,7 +43,7 @@
                     <div class="details">
                         <p class="name p-font">Lily Blossom</p>
                         <p class="price p-font">20 USD</p>
-                        <button class="p-font btn-primary">ADD TO CART</button>
+                        <button onclick="welcome()" class="p-font btn-primary">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="card">
@@ -51,7 +51,7 @@
                     <div class="details">
                         <p class="name p-font">Lily Blossom</p>
                         <p class="price p-font">20 USD</p>
-                        <button class="p-font btn-primary">ADD TO CART</button>
+                        <button onclick="welcome()" class="p-font btn-primary">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="card">
@@ -59,7 +59,7 @@
                     <div class="details">
                         <p class="name p-font">Lily Blossom</p>
                         <p class="price p-font">20 USD</p>
-                        <button class="p-font btn-primary">ADD TO CART</button>
+                        <button onclick="welcome()" class="p-font btn-primary">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="card">
@@ -67,7 +67,7 @@
                     <div class="details">
                         <p class="name p-font">Lily Blossom</p>
                         <p class="price p-font">20 USD</p>
-                        <button class="p-font btn-primary">ADD TO CART</button>
+                        <button onclick="welcome()" class="p-font btn-primary">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="card">
@@ -75,7 +75,7 @@
                     <div class="details">
                         <p class="name p-font">Lily Blossom</p>
                         <p class="price p-font">20 USD</p>
-                        <button class="p-font btn-primary">ADD TO CART</button>
+                        <button onclick="welcome()" class="p-font btn-primary">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="card">
@@ -83,7 +83,7 @@
                     <div class="details">
                         <p class="name p-font">Lily Blossom</p>
                         <p class="price p-font">20 USD</p>
-                        <button class="p-font btn-primary">ADD TO CART</button>
+                        <button onclick="welcome()" class="p-font btn-primary">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="card">
@@ -91,7 +91,7 @@
                     <div class="details">
                         <p class="name p-font">Lily Blossom</p>
                         <p class="price p-font">20 USD</p>
-                        <button class="p-font btn-primary">ADD TO CART</button>
+                        <button onclick="welcome()" class="p-font btn-primary">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="card">
@@ -99,7 +99,7 @@
                     <div class="details">
                         <p class="name p-font">Lily Blossom</p>
                         <p class="price p-font">20 USD</p>
-                        <button class="p-font btn-primary">ADD TO CART</button>
+                        <button onclick="welcome()" class="p-font btn-primary">ADD TO CART</button>
                     </div>
                 </div>
             </div>
@@ -179,12 +179,18 @@
                 <a href="">Help Center</a>
             </div>
             <div class="icon">
-                <img class="linkdin" src="./assets/icon-linkedin.png" alt="">
-                <img class="twitter" src="./assets/icon-twitter.png" alt="">
-                <img src="./assets/icon-facebook.png" alt="">
-                <img src="./assets/icon-youtube.png" alt="">
+                <a target="_blank" href="https://www.linkedin.com/"><img class="linkdin" src="./assets/icon-linkedin.png" alt=""></a>
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Twitter"><img class="twitter" src="./assets/icon-twitter.png" alt=""></a>
+                <a target="_blank" href="https://www.facebook.com/murad.hasan.199454"><img src="./assets/icon-facebook.png" alt=""></a>
+                <a target="_blank" href=""><img src="./assets/icon-youtube.png" alt=""></a>
             </div>
         </section>
     </footer>
+
+    <script>
+        function welcome() {
+            alert("Flower Added to Cart")
+        }
+    </script>
 </body>
 </html>

@@ -148,8 +148,19 @@ header, main {
   margin-left: 345px;
   margin-top: -130px;
   position: absolute;
-  filter: drop-shadow(10px 10px 20px gray)
+  filter: drop-shadow(10px 10px 20px gray);
+  animation: spin 7s linear infinite;
 }
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
+}
+
 
 /* latest deals style */
 .deals{
@@ -325,6 +336,10 @@ button:hover{
 .icon img{
   margin-left: 24px;
 }
+.icon img:hover{
+  cursor: pointer;
+}
+
 
 
 /* responsive style */
