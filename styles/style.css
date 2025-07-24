@@ -131,7 +131,7 @@ header, main {
   display: flex;
   gap: 70px;
   align-items: center;
-  margin-bottom: 120px;
+  margin-bottom: 130px;
 }
 .about-flower-lover > ul > li{
   margin-bottom: 20px;
@@ -150,6 +150,115 @@ header, main {
   position: absolute;
   filter: drop-shadow(10px 10px 20px gray)
 }
+
+/* latest deals style */
+.deals{
+  max-width: 880px;
+  text-align: center;
+  margin: 0px auto 100px;
+}
+.image-container{
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+.image2{
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   flex: 1;
+}
+
+.bloom{
+  height: 206px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../assets/deal-bloom.png);
+  border-radius: 14px;
+  border-style: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.ana{
+  height: 206px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../assets/deal-ana.png);
+  border-radius: 14px;
+  border-style: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.jabo{
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  height: 440px;
+  background: url(../assets/deal-zabo.png);
+  border-radius: 22px;
+  border-style: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bloom-heading{
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+}
+.bloom-buy{
+  font-weight: 600;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+.jabo-heading{
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+}
+.jabo-buy{
+  font-weight: 600;
+  font-size: 1.75rem;
+  color: #FFFFFF;
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+.bloom-heading,
+.bloom-buy,
+.jabo-heading,
+.jabo-buy{
+  position: relative;
+  z-index: 2;
+}
+.image2 a{
+  color: #FFFFFF;
+}
+.jabo a{
+  color: #FFFFFF;
+}
+.jabo div{
+  border-radius: 22px;
+}
+
 
 
 /* responsive style */
@@ -230,4 +339,30 @@ header, main {
     .flower-lover-image{
       max-width: 100%;
     }
-}
+
+
+    /* latest deal  */
+    .image-container{
+      flex-direction: column;
+    }
+    .jabo{
+      min-height: 206px;
+      border-radius: 14px;
+    }
+    .jabo div{
+      border-radius: 14px;
+    }
+    .jabo-heading{
+      font-size: 1.25rem;
+    }
+    .jabo-buy{
+      font-size: 1rem;
+    }
+    .container{
+      margin-bottom: 0px;
+    }
+    .deals{
+      margin-bottom: 50px;
+    }
+    
+  }
